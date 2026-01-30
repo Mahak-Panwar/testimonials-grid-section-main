@@ -116,7 +116,6 @@ html {
     .cards {
         width: 80%;
         display: grid;
-        grid-template-columns: 1fr 1.2fr 1fr 1fr;
         grid-template-areas: "deniel deniel jonathan kira"
             "jeanette patrick patrick kira";
             gap: 2em;

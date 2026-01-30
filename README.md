@@ -21,9 +21,8 @@ It's the solution code of Testimonials grid section challenge.I built this solut
 
 ### Links
 
-- Solution URL:https://github.com/Mahak-Panwar/four-card-feature-section-master.git
-- Live Site URL: https://mahak-panwar.github.io/four-card-feature-section-master/
-
+- Solution URL:https://github.com/Mahak-Panwar/testimonials-grid-section-main.git
+- Live Site URL: https://mahak-panwar.github.io/testimonials-grid-section-main/
 ## My Process
 
 ### Built with
