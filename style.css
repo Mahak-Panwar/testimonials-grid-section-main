@@ -1,0 +1,152 @@
+html {
+    font-size: 0.81rem;
+    font-family: 'Barlow Semi Condensed', sans-serif;
+
+}
+
+  .container{
+    height: 100vh;
+  }
+
+.card_title {
+    display: flex;
+    align-items: center;
+    gap: 1em;
+
+}
+
+.cards {
+    margin: 1em;
+}
+
+.card {
+    padding: 2.5em;
+    border-radius: 1em;
+    margin: 2em 0em;
+    box-shadow: 0em 0em 2em 0px hsl(234deg 5.52% 76.82%);
+    width: auto;
+    padding-bottom: 1em;
+}
+
+.card:hover{
+        box-shadow: 3em 1em 3em 0px hsl(234deg 5.52% 76.82%);
+}
+
+.card_desc_comment {
+    font-weight: 500;
+    line-height: 1.5em;
+    font-size: larger;
+}
+
+.card_title_info {
+    font-weight: 600;
+}
+
+.daniel {
+    background-color: hsl(263, 55%, 52%);
+    color: hsl(260, 100%, 95%);
+}
+
+.daniel.card_desc_comment {
+    color: hsl(264, 82%, 80%);
+}
+
+.jonathan {
+    background-color: hsl(217, 19%, 35%);
+    color: hsl(220, 23%, 90%);
+}
+
+.jonathan .card_desc_comment {
+    color: hsl(216deg 19.56% 72%);
+}
+
+.jeanette {
+    color: hsl(217, 19%, 35%);
+    background-color: hsl(0, 0%, 100%);
+}
+
+.jeanette .card_desc_comment {
+    color: hsl(217, 19%, 35%);
+}
+
+.patrick {
+    background-color: hsl(219, 29%, 14%);
+    color: hsl(216, 3%, 70%);
+}
+
+.kira {
+    color: hsl(217, 19%, 35%);
+    background-color: hsl(0, 0%, 100%);
+}
+
+.kira .card_desc_comment {
+    color: hsl(217, 19%, 35%);
+
+}
+
+.card_title_img {
+    border-radius: 4em;
+    width: 2em;
+    height: 2em;
+}
+
+.card_title_info {
+    line-height: 0.5em;
+    font-size: x-small;
+
+}
+
+.attribution {
+      text-align: center;
+    }
+
+    .attribution a {
+      color: hsl(228, 45%, 44%);
+    }
+
+
+@media only screen and (min-width: 60rem) {
+    .container{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+
+    .cards {
+        width: 80%;
+        display: grid;
+        grid-template-columns: 1fr 1.2fr 1fr 1fr;
+        grid-template-areas: "deniel deniel jonathan kira"
+            "jeanette patrick patrick kira";
+            gap: 2em;
+
+    }
+    .card{
+        margin: 0;
+    }
+
+    .daniel {
+        grid-area: deniel;
+        background-image: url(/images/bg-pattern-quotation.svg);
+        background-repeat: no-repeat;
+        background-position: 90% 10%;
+    }
+    
+
+    .jonathan {
+        grid-area: jonathan;
+    }
+
+    .jeanette {
+        grid-area: jeanette;
+    }
+
+    .patrick {
+        grid-area: patrick;
+    }
+
+    .kira {
+        grid-area: kira;
+    }
+}
